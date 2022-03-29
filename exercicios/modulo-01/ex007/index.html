@@ -5,15 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Exemplo de Semântica</title>
-    <Style>
-        body {
-            background-color: rgb(140, 230, 203);
+    <title>Formatação de Texto</title>
+    <style>
+        mark{
+            background-color: darkseagreen;
         }
-    </Style>
+    </style>
 </head>
 <body>
-    <H1>Semântica = Significado </H1>
-    <p>Eu moro na <address>Rua João José da Silva - São José - SC</address></p>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em Negrito </b> usando a tag &lt;B &gt; (Não semântica).</p>
+    <p>Nessa frase tenho um <strong>termo em negrito</strong> usando a tag &lt;STRONG &gt; (Semântica). </p>
+
+    <h2>Itálico/ Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag &lt;I &gt; (Não semântica).</p>
+    <p>Nesta frase, temos um <em>termo em itálico</em> usando a tag &lt;EM &gt; (Semântica).</p>
+
+    <h2>Texto Mascado </h2>
+    <p>Podemos também <mark>marcar um texto</mark> com a tag &lt;MARK &gt; (Semântica).</p>
+    <p>E no outro parágrafo temos <mark>outra marcação</mark> no final. </p>
+
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nessa parágrafo.</p>
+
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não conciderado.</p>
+
+    <h2>Texto inserido </h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também <u>o sublinhado</u> com a tag não semântica &lt; U &gt;</p>
+
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+
 </body>
 </html>
